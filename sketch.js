@@ -49,12 +49,7 @@ function draw() {
   background(150);
  
   
-  bob5.collide=(bob4);
-  bob4.collide=(bob1);
-  bob1.collide=(bob2);
-  bob2.collide=(bob3);
-
-  bob5.velocityY=bob5.velocityY+0.5;
+ 
 
   roof.display();
   bob1.display();
